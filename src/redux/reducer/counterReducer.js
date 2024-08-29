@@ -5,6 +5,7 @@ import { INCREMENT, DECREMENT } from '../action/types';
 const INITIAL_STATE = {
 
     count: 0,
+    name: 'phuong'
 };
 
 const reducer = (state = INITIAL_STATE, action) => {
